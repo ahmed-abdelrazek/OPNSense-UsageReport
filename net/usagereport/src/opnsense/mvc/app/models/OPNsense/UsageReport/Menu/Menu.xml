@@ -1,0 +1,5 @@
+<menu>
+    <Reporting>
+        <UsageReport order="45" VisibleName="Device Usage" cssClass="fa fa-laptop fa-fw" url="/ui/usagereport/"/>
+    </Reporting>
+</menu>

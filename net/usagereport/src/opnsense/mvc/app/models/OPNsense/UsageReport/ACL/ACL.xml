@@ -1,0 +1,10 @@
+<acl>
+    <page-reporting-usagereport>
+        <name>Reporting: Device Usage</name>
+        <description>Allow access to the per-device internet usage report</description>
+        <patterns>
+            <pattern>ui/usagereport/*</pattern>
+            <pattern>api/usagereport/*</pattern>
+        </patterns>
+    </page-reporting-usagereport>
+</acl>

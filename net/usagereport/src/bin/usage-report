@@ -1,0 +1,3 @@
+#!/bin/sh
+# convenience wrapper so "usage-report" works from the shell
+exec /usr/local/opnsense/scripts/usagereport/usage-report.py "$@"

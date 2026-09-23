@@ -1,0 +1,18 @@
+Device Usage adds a Reporting page that answers "how much internet did
+this device use between two dates". It reads the NetFlow data already
+collected by Reporting: Insight and attributes it to devices (MAC
+addresses) using Kea DHCP reservations and leases, Hostwatch history and
+a daily IP-to-device snapshot taken by cron. Download, upload and total
+are reported separately, per device and optionally per day, with CSV
+export. LAN-to-LAN traffic, broadcast and multicast are excluded.
+
+Requirements: Reporting: NetFlow with local capture ("Insight") enabled
+on the LAN interface. For upload accounting on a bridged LAN, add the
+bridge member interfaces to the NetFlow capture as well.
+
+Plugin Changelog
+================
+
+1.0
+
+* Initial release
